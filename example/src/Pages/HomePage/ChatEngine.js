@@ -22,7 +22,7 @@ import {
     PeopleSettings,
     PhotosSettings,
     OptionsSettings,
-} from 'react-chat-engine'
+} from 'nextjs-chat-engine'
 
 const ChatEngineApp = props => {
     const { chats, messages, setActiveChat } = useContext(ChatEngineContext)

@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux'
 
 import { login, logout } from '../../Actions/Accounts'
 
-import { ChatEngine } from 'react-chat-engine'
+import { ChatEngine } from 'nextjs-chat-engine'
 
 const ROOT_URL = 'https://api.chatengine.io/'
 const PROJECT_ID = '12b6b495-2c5d-43d6-a210-b5c26f1e0126'

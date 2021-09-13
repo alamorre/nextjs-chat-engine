@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import { ChatEngine, getOrCreateChat } from 'react-chat-engine'
+import { ChatEngine, getOrCreateChat } from 'nextjs-chat-engine'
 
 import { DEVELOPMENT, PROJECT_ID, USER_NAME, USER_SECRET } from '../../consts'
 

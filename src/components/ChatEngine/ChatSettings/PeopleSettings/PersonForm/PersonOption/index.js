@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
-import { Avatar } from 'react-chat-engine'
+import { Avatar } from 'nextjs-chat-engine'
 
 
 const PersonOption = props => {

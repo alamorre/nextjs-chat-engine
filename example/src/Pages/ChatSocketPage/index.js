@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ChatEngineWrapper, ChatSocket, ChatFeed, ChatList } from 'react-chat-engine'
+import { ChatEngineWrapper, ChatSocket, ChatFeed, ChatList } from 'nextjs-chat-engine'
 
 import { DEVELOPMENT, PROJECT_ID, CHAT_ID, CHAT_ACCESS_KEY } from '../../consts'
 

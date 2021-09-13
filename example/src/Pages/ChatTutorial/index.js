@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-import { ChatEngine } from 'react-chat-engine'
+import { ChatEngine } from 'nextjs-chat-engine'
 
 import ChatFeed from './ChatFeed'
 

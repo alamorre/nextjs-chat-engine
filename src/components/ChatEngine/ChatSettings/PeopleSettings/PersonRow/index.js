@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
-import { removePerson } from 'react-chat-engine'
+import { removePerson } from 'nextjs-chat-engine'
 
-import { Avatar, Button } from 'react-chat-engine'
+import { Avatar, Button } from 'nextjs-chat-engine'
 
 const PersonRow = props => {
     const [selected, setSelected] = useState(false)

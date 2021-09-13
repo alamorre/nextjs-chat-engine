@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect, useRef } from 'react'
 
-import { ChatEngineContext, getLatestChats, getLatestMessages, readMessage } from 'react-chat-engine'
+import { ChatEngineContext, getLatestChats, getLatestMessages, readMessage } from 'nextjs-chat-engine'
 
 import { getDateTime } from '../../ChatEngine/Utilities/timezone'
 

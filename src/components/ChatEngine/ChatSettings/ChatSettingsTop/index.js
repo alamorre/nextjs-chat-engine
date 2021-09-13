@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 
-import { Avatar, ChatEngineContext } from 'react-chat-engine'
+import { Avatar, ChatEngineContext } from 'nextjs-chat-engine'
 
 import TitleForm from './TitleForm'
 

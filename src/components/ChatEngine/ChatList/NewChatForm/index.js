@@ -4,7 +4,7 @@ import { CloseOutlined } from '@ant-design/icons'
 
 import { ChatEngineContext } from '../../../Context'
 
-import { newChat, Button, TextInput } from 'react-chat-engine'
+import { newChat, Button, TextInput } from 'nextjs-chat-engine'
 
 const NewChatForm = (props) => {
   const { conn } = useContext(ChatEngineContext)

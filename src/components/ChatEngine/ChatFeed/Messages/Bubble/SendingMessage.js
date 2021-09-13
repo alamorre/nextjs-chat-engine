@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState, useRef } from 'react'
 
-import { ChatEngineContext } from 'react-chat-engine'
+import { ChatEngineContext } from 'nextjs-chat-engine'
 
 import { isImage } from './file'
 

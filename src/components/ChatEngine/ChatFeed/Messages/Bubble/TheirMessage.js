@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 
-import { ChatEngineContext } from 'react-chat-engine'
+import { ChatEngineContext } from 'nextjs-chat-engine'
 
 import { getDateTime, formatTime } from '../../../Utilities/timezone'
 
@@ -9,7 +9,7 @@ import { getFileName, isImage } from './file'
 import FileView from './FileView'
 import Thumbnail from './Thumbnail'
 
-import { Avatar, Dot } from 'react-chat-engine'
+import { Avatar, Dot } from 'nextjs-chat-engine'
 
 import Body from './Body'
 

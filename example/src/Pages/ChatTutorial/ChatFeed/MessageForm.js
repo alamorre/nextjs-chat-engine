@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SendOutlined, PictureOutlined } from '@ant-design/icons'
 
-import { sendMessage, isTyping } from 'react-chat-engine'
+import { sendMessage, isTyping } from 'nextjs-chat-engine'
 
 export default class MessageForm extends React.Component {
     state = { value: '' }

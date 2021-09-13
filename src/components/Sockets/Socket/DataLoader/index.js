@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef } from 'react'
 
-import { ChatEngineContext, getLatestChats, getLatestMessages } from 'react-chat-engine'
+import { ChatEngineContext, getLatestChats, getLatestMessages } from 'nextjs-chat-engine'
 import { getOrCreateSession } from '../getOrCreateSession'
 
 import { getDateTime } from '../../../ChatEngine/Utilities/timezone'

@@ -2,9 +2,9 @@
     <p align="center" >
         <a href="https://chatengine.io/">
             <img    
-                alt="react-chat-engine" 
+                alt="nextjs-chat-engine" 
                 style='max-height: 333px; max-width: 100%;'
-                src="https://chat-engine-assets.s3.amazonaws.com/react-chat-engine.gif" 
+                src="https://chat-engine-assets.s3.amazonaws.com/nextjs-chat-engine.gif" 
             />
         </a>
     </p>
@@ -18,8 +18,8 @@ Try our free plan at [chatengine.io](https://chatengine.io)
 
 ## Installation
 
-- Using [npm](https://www.npmjs.com/#getting-started): `npm install react-chat-engine --save`
-- Using [Yarn](https://yarnpkg.com/): `yarn add react-chat-engine`
+- Using [npm](https://www.npmjs.com/#getting-started): `npm install nextjs-chat-engine --save`
+- Using [Yarn](https://yarnpkg.com/): `yarn add nextjs-chat-engine`
 
 ## Quick Start
 
@@ -29,7 +29,7 @@ Add serverless chat to your React app in 3 minutes.
 
 2. Collect the **public key**, **username** and **user password**
 
-3. Install `yarn add react-chat-engine`
+3. Install `yarn add nextjs-chat-engine`
 
 4. Import the `ChatEngine` component and pass in `publicKey`, `userName`, and `userSecret` props
 
@@ -40,7 +40,7 @@ EXAMPLE: Your implementation should look like the following
 ```jsx
 import React from 'react'
 
-import { ChatEngine } from 'react-chat-engine'
+import { ChatEngine } from 'nextjs-chat-engine'
 
 export function App() {
   return (
@@ -83,7 +83,7 @@ export function App() {
 ## Functions
 
 ```
-import { functionName } from 'react-chat-engine'
+import { functionName } from 'nextjs-chat-engine'
 
 ...
 

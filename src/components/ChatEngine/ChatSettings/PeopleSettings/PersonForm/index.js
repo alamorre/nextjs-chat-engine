@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 
-import { addPerson, getOtherPeople } from 'react-chat-engine'
+import { addPerson, getOtherPeople } from 'nextjs-chat-engine'
 
-import { AutoCompleteInput } from 'react-chat-engine'
+import { AutoCompleteInput } from 'nextjs-chat-engine'
 
 import PersonOption from './PersonOption'
 

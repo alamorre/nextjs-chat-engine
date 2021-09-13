@@ -14,7 +14,7 @@ import { Row, Col } from 'react-grid-system'
 import { setConfiguration } from 'react-grid-system';
 
 // TODO: One off imports for Teams tutorial
-import { getLatestMessages } from 'react-chat-engine'
+import { getLatestMessages } from 'nextjs-chat-engine'
  
 setConfiguration({ maxScreenClass: 'xl', gutterWidth: 0 });
 

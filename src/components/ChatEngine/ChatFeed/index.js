@@ -1,6 +1,6 @@
 import React, { useContext, useState, useEffect } from 'react'
 
-import { ChatEngineContext, getLatestMessages, readMessage } from 'react-chat-engine'
+import { ChatEngineContext, getLatestMessages, readMessage } from 'nextjs-chat-engine'
 
 import { AuthFail, CreateChat, IceBreaker } from './Steps'
 

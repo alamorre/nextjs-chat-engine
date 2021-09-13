@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 
-import { ChatEngineContext } from 'react-chat-engine'
+import { ChatEngineContext } from 'nextjs-chat-engine'
 
 import { CaretDownOutlined } from '@ant-design/icons'
 

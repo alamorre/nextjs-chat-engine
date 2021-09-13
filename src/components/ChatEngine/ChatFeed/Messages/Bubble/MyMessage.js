@@ -1,6 +1,6 @@
 import React, { useState, useContext } from 'react'
 
-import { ChatEngineContext } from 'react-chat-engine'
+import { ChatEngineContext } from 'nextjs-chat-engine'
 
 import _ from 'lodash'
 

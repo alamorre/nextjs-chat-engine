@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 
-import { sendMessage, isTyping, ChatEngineContext } from 'react-chat-engine'
+import { sendMessage, isTyping, ChatEngineContext } from 'nextjs-chat-engine'
 
 import { pythonFormatDate } from '../../Utilities/timezone'
 

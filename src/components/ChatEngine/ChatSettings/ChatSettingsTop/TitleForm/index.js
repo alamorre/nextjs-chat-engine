@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import PropTypes from 'prop-types'
 
-import { editChat, TextInput } from 'react-chat-engine'
+import { editChat, TextInput } from 'nextjs-chat-engine'
 
 const NewMessageForm = props => {
     const didMountRef = useRef(false)
