@@ -4,7 +4,7 @@
             <img    
                 alt="nextjs-chat-engine" 
                 style='max-height: 333px; max-width: 100%;'
-                src="https://chat-engine-assets.s3.amazonaws.com/nextjs-chat-engine.gif" 
+                src="https://chat-engine-assets.s3.amazonaws.com/react-chat-engine.gif" 
             />
         </a>
     </p>
@@ -20,6 +20,8 @@ Try our free plan at [chatengine.io](https://chatengine.io)
 
 - Using [npm](https://www.npmjs.com/#getting-started): `npm install nextjs-chat-engine --save`
 - Using [Yarn](https://yarnpkg.com/): `yarn add nextjs-chat-engine`
+
+- NOTE: When you use `import {} from 'nextjs-chat-engine';` you will also likely need to import css assets from react quill. Add `require('react-quill/dist/quill.snow.css');` alongside your Chat Engine import.
 
 ## Quick Start
 
