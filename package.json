@@ -1,6 +1,6 @@
 {
   "name": "nextjs-chat-engine",
-  "version": "1.11.0",
+  "version": "1.11.1",
   "description": "Cheap and easy chat API",
   "author": "alamorre",
   "license": "MIT",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "chromedriver": "^87.0.4",
+    "chromedriver": "93.0.1",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.7.0",
