@@ -1,4 +1,5 @@
 import React, { useContext, useState } from 'react'
+import dynamic from 'next/dynamic'
 
 import { sendMessage, isTyping, ChatEngineContext } from 'nextjs-chat-engine'
 
@@ -10,7 +11,7 @@ import ImagesRow from './ImagesRow'
 import AttachmentsInput from './AttachmentsInput'
 import SendButton from './SendButton'
 
-const ReactQuill = require('react-quill');
+const ReactQuill = dynamic(() => import('react-quill'), { ssr: false })
 
 const NewMessageForm = () => {
   const { 
